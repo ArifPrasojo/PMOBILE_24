@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.5.1
+  sdk: '3.4.3'
 
 dependencies:
   flutter:
@@ -15,24 +15,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: 3.0.2
 
 flutter:
   uses-material-design: true
 
   assets:
-    - images/thermometer.png 
-    - images/barometer.jpg 
-    - images/humidity.jpg 
-    - images/cloudy.jpg 
     - termometer.jpg
   # - barometer2.jpg
     - humidity.jpg
     - cloudy.jpg
     - baro.jpg
-    
-    
-    
-
-
-
